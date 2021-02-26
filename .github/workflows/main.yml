@@ -36,5 +36,5 @@ jobs:
           ls -lrt 
           docker build -t todo .
           docker images
-          docker push todo farhad207/nodejsmondgo:latest
+          docker push todo:latest
 
