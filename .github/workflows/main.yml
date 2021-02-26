@@ -37,5 +37,7 @@ jobs:
           docker build -t todo .
           docker images
           docker push todo:latest
+          docker tag todo:farhad207/nodejsmondgo
+          docker push farhad207/nodejsmondgo:latest
           echo "success"
 
