@@ -35,4 +35,5 @@ jobs:
           pwd
           ls -lrt 
           docker build -t todo .
+          docker images
 
