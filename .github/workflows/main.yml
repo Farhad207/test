@@ -34,5 +34,5 @@ jobs:
         run: |
           pwd
           ls -lrt 
-          cd ..
-          ls -lrt
+          docker build -t todo .
+
