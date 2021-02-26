@@ -37,4 +37,5 @@ jobs:
           docker build -t todo .
           docker images
           docker push todo:latest
+          echo "success"
 
